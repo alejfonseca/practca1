@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class numparoimpar {
+    public static void main(String args[]) {
+        Scanner t = new Scanner(System.in);
+        
+        int numero;
+        System.out.print("Digite el número: ");
+        numero = t.nextInt();
+        
+        if (numero % 2 == 0){
+            System.out.print("El numero ingresado es par.");
+        }else{
+            System.out.print("El numero ingresado es impar");
+        }
+    }
+}
